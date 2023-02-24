@@ -1,4 +1,4 @@
-# Website Backup with Wget
+# Website backup with wget
 This repository contains a minimal script to create a local backup of a website using wget with the options -mkEpnp.
 
 # Usage
