@@ -17,10 +17,10 @@ Wget is a command-line utility for downloading files from the web. It supports a
 
 ## Some other useful options for wget include:
 
--c: Continues a previous download that was interrupted or stopped.
--r: Recursively downloads files from a website, following links and directory structure.
--nc: Skips downloading files that already exist in the local directory.
--np: Does not follow links to parent directories.
+- -c: Continues a previous download that was interrupted or stopped.
+- -r: Recursively downloads files from a website, following links and directory structure.
+- -nc: Skips downloading files that already exist in the local directory.
+- -np: Does not follow links to parent directories.
 For more information on wget, consult the official documentation.
 
 ## License
