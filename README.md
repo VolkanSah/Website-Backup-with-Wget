@@ -2,9 +2,9 @@
 This repository contains a minimal script to create a local backup of a website using wget with the options -mkEpnp.
 
 # Usage
-To create a local backup of a website, use the following command:
+### To create a local backup of a website, use the following command:
 wget -mkEpnp https://example.com
--> This will download the entire website and create a local copy with the same structure as the original website. The options used are:
+### This will download the entire website and create a local copy with the same structure as the original website. The options used are:
 
 -m: Enables mirroring mode, which means the entire website will be recursively downloaded.
 -k: Converts all the links in the downloaded files to local links, so that the website can be browsed offline.
