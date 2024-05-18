@@ -3,7 +3,7 @@ This repository contains a minimal script to create a local backup of a website 
 
 # Usage
 ### To create a local backup of a website, use the following command:
-wget -mkEpnp https://example.com
+    wget -mkEpnp https://example.com
 ### This will download the entire website and create a local copy with the same structure as the original website. The options used are:
 
 - -m: Enables mirroring mode, which means the entire website will be recursively downloaded.
@@ -21,7 +21,14 @@ Wget is a command-line utility for downloading files from the web. It supports a
 - -r: Recursively downloads files from a website, following links and directory structure.
 - -nc: Skips downloading files that already exist in the local directory.
 - -np: Does not follow links to parent directories.
+- -timeout=SECONDS: Sets the read timeout for downloads. This can be useful if you want to stop the download after a certain period of inactivity and retry later.
+
+## Example of setting a timeout and retrying later:
 For more information on wget, consult the official documentation.
+    wget -mkEpnp --timeout=30 -c https://example.com
+This command sets a timeout of 30 seconds. If the download is interrupted due to the timeout, it can be resumed with the -c option.
+
+For more information on wget, consult the [official documentation](https://www.gnu.org/software/wget/).
 
 ## License
 This project is licensed under the MIT License 
