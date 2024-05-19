@@ -66,7 +66,10 @@ This command uses `aria2` to make up to 16 parallel connections with a segment s
 `wget` is a command-line utility for downloading files from the web. It supports a wide range of protocols, including HTTP, HTTPS, FTP, and SFTP. With its various options, it can be used for a variety of tasks, such as mirroring websites, downloading large files, and recursive downloads.
 
 For more detailed information on `wget`, consult the [official documentation](https://www.gnu.org/software/wget/manual/wget.html).
+- [Source of this resposerity](https://github.com/VolkanSah/Website-Backup-with-Wget)
 
 ## License
 
 This project is licensed under the MIT License.
+
+
